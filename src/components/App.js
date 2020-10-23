@@ -1,11 +1,14 @@
 import React from 'react';
+import Body from './Body';
+import Footer from './Footer';
+import Header from './Header';
 
 function App( props ) {
-    return (
-        <React.Fragment>
-            <h1>Instaroid</h1>
-        </React.Fragment>
-    );
+    return <React.Fragment>
+        <Header />
+        <Body />
+        <Footer />
+    </React.Fragment>;
 }
 
 export default App;

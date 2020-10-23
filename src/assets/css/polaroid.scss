@@ -1,0 +1,18 @@
+.polaroid {
+    border: 1px dashed black;
+    width: 8.89cm;
+    height: 10.668cm;
+    padding: 0.508cm;
+}
+
+.polaroid__image {
+    width: 7.874cm;
+    height: 7.874cm;
+    overflow: hidden;
+    position: relative;
+    background-color: #cccccc;
+    background-position: center;
+    background-size: cover;
+}
+
+.polaroid__author {}
